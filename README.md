@@ -21,6 +21,6 @@ This project is a multi-step onboarding application built with **React**, focuse
 **State Persistence** using `localStorage` for theme, layout, and form data
 
 ## 🚀 Live Demo
-Check out the live site: [View Live Project]((https://interactive-dashboard-fewk.vercel.app/))
+Check out the live site: [View Live Project](https://interactive-dashboard-fewk.vercel.app/)
 
 
