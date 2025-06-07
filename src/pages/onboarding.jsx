@@ -1,8 +1,8 @@
 import { useNavigate } from 'react-router-dom';
 import { useState } from 'react';
-import Step1 from '../components/Step1';
-import Step2 from '../components/Step2';
-import Step3 from '../components/Step3';
+import Step1 from '../components/step1';
+import Step2 from '../components/step2';
+import Step3 from '../components/step3';
 
 function Onboarding({ step, setStep, formData, setFormData }) {
   const navigate = useNavigate();
