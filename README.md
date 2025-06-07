@@ -1,24 +1,31 @@
-Interactive Onboarding Flow with Theme and Layout Personalization
+This project is a multi-step onboarding app built with React. It focuses on providing a smooth and clean user experience, allowing users to customize the theme and layout. The app is responsive, meaning it works well on both mobile and desktop screens, and it saves user preferences so they’re not lost when refreshing or returning later.
 
-This project is a multi-step onboarding application built with **React**, focused on a clean user experience, theme/layout customization, and responsive design. It simulates a real-world onboarding flow with validation, persistent preferences, and a responsive dashboard.
+Key Features
+Welcome Page: The starting point where users begin the onboarding process.
 
----
+Three-step Onboarding: The app guides users through three stages:
 
-## ✨ Features
+Personal Details — collecting name and email.
 
- **Welcome Page** to initiate onboarding flow
- **Three-step Onboarding Process**
-  - Step 1: Personal Details (Name, Email)
-  - Step 2: Business Information (Company Name, Industry, Size)
-  - Step 3: Preferences (Theme and Layout)
-**Theme Toggle** (Light 🌞 / Dark 🌙) with persistence
-**Dashboard Layout Options** (Grid 🔲 / List 📋)
-**Progress Tracking**
-  - Sidebar view for desktop
-  - Horizontal top bar for mobile
-**Form Validation** — Navigation disabled unless data is filled
-**Responsive Design** — Optimized for mobile and desktop
-**State Persistence** using `localStorage` for theme, layout, and form data
+Business Information — gathering company name, industry, and size.
+
+Preferences — letting users choose their preferred theme and dashboard layout.
+
+Theme Toggle: Users can switch between Light (with a sun icon 🌞) and Dark mode (with a moon icon 🌙). The choice is saved so it stays the same next time they visit.
+
+Dashboard Layout Options: Users can pick either a Grid view (icon 🔲) or a List view (icon 📋) for their dashboard.
+
+Progress Tracking: Shows users which step they’re on:
+
+On desktop, this appears as a sidebar.
+
+On mobile, it’s displayed as a horizontal bar at the top.
+
+Form Validation: Users can’t move forward unless they fill in the required fields correctly.
+
+Responsive Design: The app automatically adjusts its layout to look great on different screen sizes.
+
+State Persistence: All user choices — theme, layout, and form data — are saved in localStorage so they’re remembered across sessions.
 
 ## 🚀 Live Demo
 Check out the live site: [View Live Project](https://interactive-dashboard-fewk.vercel.app/)
