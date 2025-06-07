@@ -20,5 +20,7 @@ This project is a multi-step onboarding application built with **React**, focuse
 **Responsive Design** — Optimized for mobile and desktop
 **State Persistence** using `localStorage` for theme, layout, and form data
 
+## 🚀 Live Demo
+Check out the live site: [View Live Project](https://your-project-name.vercel.app)
 
 
